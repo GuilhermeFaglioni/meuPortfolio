@@ -1,0 +1,161 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(240, 235, 244, 1) 6%, rgba(211, 198, 221, 1) 23%, rgba(211, 198, 221, 1) 82%, rgba(240, 235, 244, 1) 95%, rgba(255, 255, 255, 1) 100%);
+}
+
+.aboutAll {
+    padding: 3rem;
+}
+
+.aboutContent {
+    display: flex;
+    border-radius: 50px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 5rem 10rem;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.aboutText {
+    width: 75%;
+}
+
+.aboutText h2 {
+    font-size: 6em;
+    background: #8F1AE6;
+    background: radial-gradient(circle farthest-corner at center center, #8F1AE6 0%, #55009A 50%, #34005E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.aboutText p {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #bcbcbc;
+
+}
+
+/*.profileImage img {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 55px;
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    box-shadow: 16px 16px 32px #a6a6a6,
+        -16px -16px 32px #ffffff;
+} */
+
+.profileImage {
+    width: 20rem;
+    height: 20rem;
+    perspective: 1000px; /* Define a perspectiva para o efeito 3D */
+}
+
+.profileImage #pixel {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 55px;
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    box-shadow: 16px 16px 32px #a6a6a6,
+        -16px -16px 32px #ffffff;
+}
+
+.profileImage .card {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d; /* Mantém a transformação 3D */
+    transition: transform 0.5s; /* Adiciona uma transição suave */
+}
+
+.profileImage .card .front,
+.profileImage .card .back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden; /* Oculta a face de trás do card */
+}
+
+/* Estilo da frente do card */
+.profileImage .card .front {
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    border-radius: 55px;
+    box-shadow: 16px 16px 32px #a6a6a6,
+        -16px -16px 32px #ffffff;
+    transform: rotateY(0deg); /* Rotação inicial 0 graus */
+}
+
+/* Estilo das costas do card */
+.profileImage .card .back {
+    background-color: #f0f0f0; /* Cor de fundo da parte de trás */
+    border-radius: 55px;
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    box-shadow: 16px 16px 32px #a6a6a6,
+        -16px -16px 32px #ffffff;
+    transform: rotateY(180deg); /* Rotação inicial de 180 graus (invisível) */
+    
+
+    text-align: center;
+}
+
+.profileImage .card .back p {
+    background: #8F1AE6;
+    background: radial-gradient(circle farthest-corner at center center, #8F1AE6 0%, #55009A 50%, #34005E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Hover para ativar a animação de virada do card */
+.profileImage:hover .card {
+    transform: rotateY(180deg); /* Rotação para mostrar a parte de trás */
+}
+
+#p1 {
+    margin-top: 2rem;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+#p2 {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+#p3 {
+    margin-top: 1rem;
+    font-weight: 700;
+}
+
+#cardDescription {
+    font-size: 1em;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 1.3rem;
+
+    background: #8F1AE6;
+    background: radial-gradient(circle farthest-corner at center center, #8F1AE6 0%, #55009A 50%, #34005E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#profile {
+    width: 50%;
+    height: 50%;
+
+    border-radius: 30px;
+}
+
+.gradientText {
+    background: #8F1AE6;
+    background: radial-gradient(circle farthest-corner at center center, #8F1AE6 0%, #55009A 50%, #34005E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}

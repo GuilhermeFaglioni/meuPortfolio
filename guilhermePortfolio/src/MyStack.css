@@ -1,0 +1,36 @@
+.myStackAll {
+    background-color: white;
+    width: 100%;
+    padding-top: 1rem;
+
+}
+
+.myStackAll h2 {
+    
+    font-weight: 700;
+    font-size: 3em;
+    text-align: center;
+    
+    background: #8F1AE6;
+    background: radial-gradient(circle farthest-corner at center center, #8F1AE6 0%, #55009A 50%, #34005E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    margin-bottom: 1.3rem;
+}
+
+#stackImages {
+    display: flex;
+    justify-content: space-around;
+}
+
+#stackImages img {
+    margin-bottom: 1rem;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    filter: contrast(5%);
+}
+
+#stackImages img:hover {
+    filter: contrast(100%);
+}
