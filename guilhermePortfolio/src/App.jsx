@@ -2,7 +2,9 @@ import { useState } from 'react'
 import Header from './Header.jsx'
 import AboutMe from './AboutMe.jsx'
 import MyStack from './MyStack.jsx'
-import projetos from './projetos.jsx'
+import Projects from './Projects.jsx'
+import Experiences from './Experiences.jsx'
+import Footer from './footer.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,7 +14,9 @@ function App() {
       <Header/>
       <AboutMe/>
       <MyStack/>
-      <projetos/>
+      <Projects/>
+      <Experiences/>
+      <Footer/>
     </>
   )
 }

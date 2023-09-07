@@ -1,0 +1,37 @@
+.footerAll {
+    background: rgb(143, 26, 230);
+    background: linear-gradient(180deg, #8f1ae6 0%, rgba(109, 6, 193, 1) 25%, #55009a 46%, rgba(68, 1, 121, 1) 68%, #34005e 100%);
+
+    padding: 3rem;
+    text-align: center;
+}
+
+.footerCard {
+    border-radius: 20px;
+    background-color: white;
+    width: 84%;
+    margin: 0 auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.footerCard p {
+    color: rgb(99, 99, 99);
+}
+
+span  p{
+    background: #8F1AE6;
+    background: radial-gradient(circle farthest-corner at center center, #8F1AE6 0%, #55009A 50%, #34005E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-size: 2em;
+}
+
+.disclaimerText p {
+    font-size: 1.3em;
+}
+
+#p1Disclaimer {
+    letter-spacing: 0.2344em;
+}

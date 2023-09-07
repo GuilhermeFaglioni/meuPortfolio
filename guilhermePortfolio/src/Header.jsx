@@ -1,20 +1,21 @@
-import React, { useEffect} from "react";
+import React, { useEffect } from "react";
 import './Header.css';
 import emailLogo from './assets/email.svg';
 import githubLogo from './assets/github.svg';
 import linkedinLogo from './assets/linkedin.svg';
+
 
 function Header() {
     useEffect(() => {
         const popup = document.querySelector(".popupEmail");
         const emailImage = document.getElementById("email");
 
-        emailImage.addEventListener('click', function() {
+        emailImage.addEventListener('click', function () {
             popup.classList.remove('copied');
 
-            setTimeout(function(){
+            setTimeout(function () {
                 popup.classList.add('copied');
-            }, 2000);
+            }, 1500);
 
             const email = "guilhermefaglioni.contato@gmail.com";
             const textArea = document.createElement("textarea");
@@ -40,9 +41,12 @@ function Header() {
                     </div>
                     <a href="https://github.com/GuilhermeFaglioni"><img id="github" src={githubLogo} alt="GitHub" /></a>
                     <a href="https://www.linkedin.com/in/guilherme-faglioni-692bb1210/"><img id="linkedin" src={linkedinLogo} alt="LinkedIn" /></a>
-                    <p class="bold instruction" >clique nos icones para acessar minhas principais redes !</p>
                 </div>
                 <h1 id="surname">Faglioni</h1>
+                <p class="bold instruction" >clique nos icones para acessar minhas principais redes !</p>
+                <div id="contentSignature">
+                    <h2 id="signature">WebDev</h2>
+                </div>
             </div>
         </>
     );

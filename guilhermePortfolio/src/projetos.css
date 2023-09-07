@@ -1,0 +1,99 @@
+    #projectsContent h2 {
+        margin-top: 3rem;
+        text-align: center;
+        font-weight: 700;
+        font-size: 6em;
+
+        background: #8F1AE6;
+        background: radial-gradient(circle farthest-corner at center center, #8F1AE6 0%, #55009A 50%, #34005E 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+    }
+
+    #projectsContent {
+        background-color: white;
+        width: 80%;
+        margin: 0 auto;
+        border-radius: 70px;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    #projectsAll {
+        margin-top: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .swiper-slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .swiper-slide {
+        display: flex;
+        width: 20%;
+        margin-bottom: 3rem;
+        align-items: center;
+    }
+
+    .swiper-slide p {
+        margin-left: 1rem;
+        font-weight: 700;
+        font-size: 1.3em;
+        margin-bottom: 1rem;
+        background: #8F1AE6;
+        background: radial-gradient(circle farthest-corner at center center, #8F1AE6 0%, #55009A 50%, #34005E 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-decoration: none;
+    }
+
+    .swiper-slide img {
+        width: 20rem;
+        height: 13rem;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .projectCard {
+        background-color: white;
+        border: 1px black solid;
+        border-radius: 30px;
+        width: 25%;
+        height: 25rem;
+        margin: 0 auto;
+    }
+
+    #bg1 {
+        background-image: url('./assets/pokedex.png');
+    }
+
+    #bg2 {
+        background-image: url('./assets/lolclone.png');
+    }
+
+    #bg3 {
+        background-image: url('./assets/portfolio.png');
+    }
+
+    .bgPicture {
+        height: 60%;
+        width: 100%;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        background-size: cover;
+        /* Torna a imagem do tamanho da div */
+        background-repeat: no-repeat;
+        /* Evita a repetição da imagem */
+        background-position: center;
+        /* Centraliza a imagem */
+    }
+
+    .projectText {
+        margin-top: 2.6rem;
+    }

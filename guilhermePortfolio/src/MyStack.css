@@ -1,7 +1,10 @@
 .myStackAll {
     background-color: white;
-    width: 100%;
-    padding-top: 1rem;
+    width: 80%;
+    padding-top: 0.3rem;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-top: 3rem;
 
 }
 
@@ -16,7 +19,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     
-    margin-bottom: 1.3rem;
+    margin-bottom: 1rem;
 }
 
 #stackImages {
@@ -25,6 +28,8 @@
 }
 
 #stackImages img {
+    width: 7rem;
+    height: 7rem;
     margin-bottom: 1rem;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;

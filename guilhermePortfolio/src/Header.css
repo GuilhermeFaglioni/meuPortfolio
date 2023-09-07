@@ -12,22 +12,54 @@
     background: linear-gradient(180deg, #8f1ae6 0%, rgba(109, 6, 193, 1) 25%, #55009a 46%, rgba(68, 1, 121, 1) 68%, #34005e 100%);
 
     padding: 3rem;
+    padding-top: 1rem;
 }
 
-img {
-    width: 7rem;
-    height: 7rem;
+#email, #github, #linkedin {
+    width: 3rem;
+    height: 3rem;
 }
+
+#contentSignature h2 {
+    color: white;
+    font-size: 4em;
+    letter-spacing: 1em;
+
+    position: absolute;
+    right: 7%;
+    top: 10%;
+
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 0.02em;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-repeat: no-repeat;
+    -webkit-transition: background-size 0.5s cubic-bezier(0.67, 0.01, 0.15, 0.98);
+    transition: background-size 0.5s cubic-bezier(0.67, 0.01, 0.15, 0.98);
+}
+
+#signature {
+    background-image: linear-gradient(135deg, white 0%, white 50%, transparent 50.1%);
+    -webkit-background-size: 0 100%;
+    background-size: 0 100%;
+    text-transform: uppercase;
+}
+
+#contentSignature:hover #signature {
+    -webkit-background-size: 220% 100%;
+    background-size: 220% 100%;
+}
+
 
 h1 {
-    font-size: 10rem;
+    font-size: 4rem;
 }
 
 #surname {
-    font-size: 15rem;
-    letter-spacing: 2.9rem;
-    line-height: 10rem;
-    margin-bottom: 2rem;
+    font-size: 6rem;
+    letter-spacing: 1.9rem;
+    line-height: 5rem;
+    margin-bottom: 0rem;
 }
 
 #content {
@@ -53,11 +85,8 @@ h1 {
 }
 
 .instruction {
-    position: absolute;
-    top: 12%;
-    left: 25.9%;
-
-    font-size: 1rem;
+    margin-top: 1.3rem;
+    font-size: 0.7rem;
 }
 
 .popupEmail {

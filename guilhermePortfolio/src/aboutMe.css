@@ -11,7 +11,10 @@ body {
 }
 
 .aboutAll {
-    padding: 3rem;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 70px;
+    margin-top: 1.5rem;
 }
 
 .aboutContent {
@@ -19,14 +22,14 @@ body {
     border-radius: 50px;
     margin: 0 auto;
     width: 100%;
-    padding: 5rem 10rem;
+    padding: 3rem 5rem;
     justify-content: space-between;
     background-color: white;
 }
 
-.aboutText {
+/* .aboutText {
     width: 75%;
-}
+} */
 
 .aboutText h2 {
     font-size: 6em;
@@ -40,18 +43,9 @@ body {
 .aboutText p {
     font-size: 1.5em;
     font-weight: 700;
-    color: #bcbcbc;
+    color: rgb(99, 99, 99);
 
 }
-
-/*.profileImage img {
-    width: 20rem;
-    height: 20rem;
-    border-radius: 55px;
-    background: linear-gradient(145deg, #ffffff, #e6e6e6);
-    box-shadow: 16px 16px 32px #a6a6a6,
-        -16px -16px 32px #ffffff;
-} */
 
 .profileImage {
     width: 20rem;

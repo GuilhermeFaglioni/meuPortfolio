@@ -1,0 +1,47 @@
+.experiencesAll {
+    width: 100%;
+}
+
+.experiencesContent {
+    display: flex;
+    width: 84%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.expCards {
+    background-color: white;
+    border-radius: 30px;
+
+    margin: 0 auto;
+
+    width: 45%;
+
+    padding: 2rem;
+
+    margin-bottom: 3rem;
+}
+
+.expCards p, .expCards li, .expCards dd {
+    color: rgb(99, 99, 99);
+}
+
+.expCards dd {
+    margin-left: 2rem;
+}
+
+.expCards h2 {
+    background: #8F1AE6;
+    background: radial-gradient(circle farthest-corner at center center, #8F1AE6 0%, #55009A 50%, #34005E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    margin-bottom: 2rem;
+}
+
+.expCards ul li {
+    background: #8F1AE6;
+    background: radial-gradient(circle farthest-corner at center center, #8F1AE6 0%, #55009A 50%, #34005E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
